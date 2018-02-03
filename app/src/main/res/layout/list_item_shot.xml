@@ -13,6 +13,7 @@
         android:background="@android:color/white">
 
         <ImageView
+            android:id="@+id/shot_image"
             android:layout_width="match_parent"
             android:layout_height="240dp"
             android:src="@drawable/shot_placeholder"

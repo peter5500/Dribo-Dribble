@@ -1,7 +1,9 @@
-package com.example.peter.dribo_dribble;
+package com.example.peter.dribo_dribble.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.peter.dribo_dribble.R;
 
 public class MainActivity extends AppCompatActivity {
 

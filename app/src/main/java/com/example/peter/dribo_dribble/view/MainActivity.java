@@ -49,11 +49,11 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.drawer_item_likes:
                         fragment = ShotListFragment.newInstance();
-                        setTitle(R.string.title_buckets);
+                        setTitle(R.string.title_likes);
                         break;
                     case R.id.drawer_item_buckets:
                         fragment = BucketListFragment.newInstance();
-                        setTitle(R.string.title_likes);
+                        setTitle(R.string.title_buckets);
                         break;
                 }
                 drawerLayout.closeDrawers();
